@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output (website and extension)
+dist*
+
+# Secrets and local settings: never commit these
+.env
+.env.*
+!.env.example
+.env*.local
+
+# Test output
+playwright-report/
+test-results/
+coverage/
+
+# Editor, system, and tool clutter
+.DS_Store
+Thumbs.db
+*.log
+.vercel/
